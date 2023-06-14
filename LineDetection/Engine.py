@@ -4,7 +4,7 @@ import cv2 as cv
 
 class Engine:
     # class settings
-    __PATH = r'./../video/'
+    __PATH = r'./video/'
     __WINDOW_HEIGHT = 600
     __WINDOW_WIDTH = 300
     __GAUSSIAN_BLUR = 1
@@ -244,5 +244,5 @@ class Engine:
 
 
 if __name__ == '__main__':
-    e = Engine('App', 'road1.mp4')
+    e = Engine('App', 'test.mp4')
     e.run()
